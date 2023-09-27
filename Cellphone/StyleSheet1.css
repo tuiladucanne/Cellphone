@@ -1,0 +1,40 @@
+﻿body* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.image-container {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các hình ảnh trên cùng một hàng ngang */
+    justify-content: space-between; /* Chia đều khoảng trống giữa các hình ảnh */
+    background-color: #E9EFFF;
+}
+
+    .image-container img {
+        width: 30%; /* Độ rộng của mỗi hình ảnh */
+        height: auto; /* Giữ tỷ lệ khung hình */
+    }
+
+nav {
+    background-color: #D70018;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của container */
+    height: auto; /* Tự động tính toán chiều cao để không bị méo ảnh */
+    align-items: center;
+}
+
+nav, ul, li, a {
+    color: white;
+}
+
+#container {
+    max-width: 1550px;
+    margin: auto;
+}
+/* này là style của banner đỏ*/
+
